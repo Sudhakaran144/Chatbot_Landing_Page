@@ -27,9 +27,9 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="w-full h-auto bg-white flex flex-col gap-20 py-16">
+    <div className="w-full h-auto bg-white flex flex-col gap-20 py-16 max-md:py-10">
       <div className="w-full h-auto flex flex-col gap-4 text-center">
-        <h1 className="font-bold text-5xl text-color">Satisfying Experiences with Our AI Chatbot</h1>
+        <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl text-color">Satisfying Experiences with Our AI Chatbot</h1>
         <p className="text-lg font-medium text-gray-500">
           Trusted by hardware stores everywhere
         </p>
